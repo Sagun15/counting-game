@@ -13,7 +13,7 @@ function shuffleArray(array) {
 }
 
 function createNumbers() {
-  numbers = Array.from({ length: 10 }, (_, i) => i + 1);
+  numbers = Array.from({ length: 9 }, (_, i) => i + 1);
   shuffleArray(numbers);
   
   numberContainer.innerHTML = '';
